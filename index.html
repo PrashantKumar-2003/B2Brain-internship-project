@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>B2Brain Dashboard</title>
+</head>
+
+<body>
+    <div class="nav-topContainer">
+        <div class="nav-top">
+            <div class="nav-content-flex">
+                <div class="search">
+                    <img src="./Media/search.png" alt="searchIMG" id="search">
+                    <img src="./Media/times.png" alt="dismissIMG" id="dismiss">
+                    <input type="text" placeholder="Search by account name or website" for="seach" id="srhInput">
+                </div>
+                <div class="logos">
+                    <div class="bellback">
+                        <img src="./Media/bell.png" alt="notification-bell">
+                    </div>
+                    <img src="./Media/Logo.png" alt="LogoIMG">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-side">
+        <img src="./Media/Shape.png" alt="brainIMG" id="brainIMG">
+        <h2 class="brainTXT">B2Brain</h2>
+        <div class="content-container">
+            <ul id="parentUL">
+                <li id="lino1"><a href="/index.html">Dashboard</a></li>
+                <li id="lino2"><a href="#">Intels</a></li>
+                <li id="lino3"><a href="#">Leads</a></li>
+                <li id="lino4">Accounts  <img src="./Media/chevron-up.png" alt="upArrow" class="ArrowIMG1"><img src="./Media/chevron-down.png" alt="downArrow" class="ArrowIMG2">
+                    <ul class="childUL1">
+                        <div class="rectangle"></div>
+                        <li id="lino41"><a href="#">Manage all</a></li>
+                        <li id="lino42"><a href="#">Track new accounts</a></li>
+                        <li id="lino43"><a href="#">Bulk Import</a></li>
+                    </ul>
+                </li>
+                <li id="lino5">Preferences  <img src="./Media/chevron-up.png" alt="upArrow" class="ArrowIMG1"><img src="./Media/chevron-down.png" alt="downArrow" class="ArrowIMG2">
+                    <ul class="childUL2">
+                    <div class="rectangle"></div>
+                        <li id="lino51"><a href="#">Product Focus</a></li>
+                        <li id="lino52"><a href="#">Intel Preferences</a></li>
+                        <li id="lino53"><a href="#">Lead Persona</a></li>
+                    </ul>
+                </li>
+                <li id="lino6"><a href="#">Integrations</a></li>
+                <li id="lino7"><a href="#">Team</a></li>
+                <li id="lino8"><a href="#">Help / Support</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="apiSection" id="apiSection">
+            <h3>Similar Accounts</h3>
+            <div class="searchTerms" id="searchTerms">
+            </div>
+            <h3>Quick Actions</h3>
+            <p>Track new account</p>
+            <p>Bulk track accounts</p>
+            <p>Manage accounts</p>
+    </div>
+    <header id="header"></header>
+    <div class="textlinks" id="textlinks">
+    </div>
+    <div class="comments" id="comments">
+    </div>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
